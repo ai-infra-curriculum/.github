@@ -17,6 +17,15 @@ This curriculum provides production-ready training for AI Infrastructure Enginee
 - 🚀 **50+ Real-World Projects**
 - ⏱️ **2,500+ Hours** of learning material
 
+## ✨ What's New
+
+**Recently Added Documentation:**
+- 📋 **[Technology Versions Guide](https://github.com/ai-infra-curriculum/.github/blob/main/VERSIONS.md)** - Comprehensive version specifications for 100+ tools and frameworks
+- 🗺️ **[Curriculum Cross-Reference](https://github.com/ai-infra-curriculum/.github/blob/main/CURRICULUM_CROSS_REFERENCE.md)** - Complete mapping between Junior and Engineer tracks showing skill progression and learning paths
+- 📈 **[Career Progression Guide](https://github.com/ai-infra-curriculum/.github/blob/main/CAREER_PROGRESSION.md)** - Detailed career ladder from L3 (Junior) to L8 (Principal Architect) with compensation ranges and timelines
+- 📝 **New Quizzes** - 265+ quiz questions added to Engineer track (modules 102-110)
+- 🎯 **New Exercises** - LLM basics, GPU fundamentals, Terraform/IaC, and Airflow workflow exercises in Junior track
+
 ---
 
 ## 🗺️ Learning Paths

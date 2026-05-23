@@ -1,7 +1,7 @@
 # Org-wide default sponsor configuration.
 # Applies to every repo in ai-infra-curriculum that doesn't ship its own
 # .github/FUNDING.yml. The Sponsor button on each repo's main page will
-# link here.
+# link to the organization's GitHub Sponsors profile.
 #
 # Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
-github: [JoshuaAFerguson]
+github: ai-infra-curriculum

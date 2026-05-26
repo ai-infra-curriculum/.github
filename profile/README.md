@@ -385,12 +385,14 @@ The audits in `_meta/QUALITY_REPORT.md` and `_meta/EXERCISE_SOLUTION_PARITY.md` 
 
 ### Missing module pieces (per-file)
 
-| Track | Missing | Specifics |
-|---|---|---|
-| Junior Engineer Learning | `resources.md` in 7 modules | mod-001-python-fundamentals, mod-003-git-version-control, mod-004-ml-basics, mod-005-docker-containers, mod-007-apis-web-services, mod-008-databases-sql, mod-010-cloud-platforms |
-| Engineer Learning | `resources.md` in 1 module | mod-101-foundations |
-| Senior Engineer Learning | `quiz.md` at module root in 10 modules | Each mod-201 through mod-210 has a quiz at `exercises/quiz.md` but not at the module root — needs relocation to match the standard layout |
-| Senior Architect Learning | lecture content in 1 module | mod-401-enterprise-ai-strategy has `lecture-notes/` directory but it's empty |
+✅ **All resolved in the May 26, 2026 pass.** The audit-flagged missing files have been added:
+
+- **Junior Engineer Learning**: 7 new `resources.md` files added (mod-001, 003, 004, 005, 007, 008, 010).
+- **Engineer Learning**: `resources.md` added to mod-101-foundations.
+- **Senior Engineer Learning**: 10 `quiz.md` files relocated from `exercises/quiz.md` to module root via `git mv` (history preserved).
+- **Senior Architect Learning**: mod-401-enterprise-ai-strategy's empty `lecture-notes/` now contains `01-overview.md` matching the peer-module pattern.
+
+Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 75, Senior Architect 66 → 68, Engineer 55 → 55 (Engineer's audit flag is a false-positive on lecture-notes file naming — see "By-design 'gaps'" below).
 
 ### Missing projects (planned but not built)
 

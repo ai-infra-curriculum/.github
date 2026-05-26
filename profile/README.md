@@ -40,6 +40,7 @@ The organization is now in a different phase than it was in late 2025: the repo 
 ## ✨ What's New
 
 **Recent Org Updates (May 2026):**
+- 🎯 **Capstone Projects Completed (May 26, 2026)** - 11 new project specs added: 5 ML Platform capstones (platform-core, feature-store, workflow-orchestration, model-registry, developer-portal — 355 hours total) + 5 Senior Architect strategic capstones (project-402 through project-406 — 285 hours total). Both tracks now structurally complete at the project layer.
 - 🛡️ **Security Track Completed (May 26, 2026)** - All 12 security-learning modules now published (foundations → zero-trust → cryptography → network → secrets → adversarial ML → compliance → runtime → policy → supply chain → SecOps → capstone), ~335 hours, ~105K words of curriculum
 - 📚 **SOLUTION.md Sweep** - 15 new design-rationale docs across all 12 solutions repos (project-level `SOLUTION.md` files plus track-level `SOLUTION_OVERVIEW.md` for module-only repos)
 - 🔄 **Full Curriculum Refresh (May 23, 2026)** - 21 repos updated, 40+ commits, 350+ new exercises, and 50+ new modules
@@ -396,25 +397,27 @@ Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 
 
 ### Missing projects (planned but not built)
 
-**ML Platform Engineer** — `5` projects planned in the repo's README, `0` currently checked in (only a placeholder `README.md` in `projects/`):
-- `project-01-platform-core` — self-service ML platform
-- `project-02-feature-store` — enterprise feature store
-- `project-03-workflow-orchestration` — ML workflow engine
-- `project-04-model-registry` — model management system
-- `project-05-developer-portal` — developer portal & SDK
+✅ **All resolved in the May 26, 2026 pass.**
 
-**Senior Architect** — `6` capstone projects planned in the repo's README, `1` checked in:
-- ✅ `project-401-ai-transformation-strategy` (live)
-- 🚧 Global AI Platform Architecture (planned)
-- 🚧 Responsible AI Framework (planned)
-- 🚧 Innovation Program Design (planned)
-- 🚧 Industry Thought Leadership (planned)
-- 🚧 Enterprise Governance Model (planned)
+**ML Platform Engineer** — all 5 planned capstone projects now live with the full 4-file scaffold (README + architecture + requirements + STEP_BY_STEP):
+- ✅ `project-01-platform-core` (80h) — Self-Service ML Platform Core
+- ✅ `project-02-feature-store` (70h) — Enterprise Feature Store
+- ✅ `project-03-workflow-orchestration` (75h) — ML Workflow Orchestration Engine
+- ✅ `project-04-model-registry` (70h) — Model Management System
+- ✅ `project-05-developer-portal` (60h) — Developer Portal & SDK
+
+**Senior Architect** — all 6 planned capstones now live (single-README strategic-deliverable format):
+- ✅ `project-401-ai-transformation-strategy` (60h)
+- ✅ `project-402-global-ai-platform-architecture` (70h)
+- ✅ `project-403-responsible-ai-framework` (60h)
+- ✅ `project-404-innovation-program-design` (50h)
+- ✅ `project-405-industry-thought-leadership` (50h)
+- ✅ `project-406-enterprise-governance-model` (55h)
 
 ### Curriculum-design gaps (not "missing files" but areas needing depth)
 
 - **Leadership and principal tracks** (Team Lead, Principal Engineer, Principal Architect): Each has the full 5-module / 5-project / 25-exercise scaffold checked in, but lecture content depth is shallower than the Engineer / MLOps / Security tracks. The strategic content is appropriate to the tier; the per-module lecture depth is the next iteration.
-- **ML Platform Engineer**: Modules are deep (45 hands-on exercises across 9 modules) but the project layer is the structural gap (see above).
+- **ML Platform Engineer**: 9 deep modules + 45 hands-on exercises + 5 capstone projects (added May 26, 2026). Track structurally complete.
 - **Senior Engineer**: Lab structure is now 5 labs per module after the May 2026 parity pass; the labs themselves are senior-scale framings pointing back to the engineer-track for implementation depth — fuller standalone lab content is the natural next iteration.
 
 ### By-design "gaps" — not actually missing

@@ -40,6 +40,7 @@ The organization is now in a different phase than it was in late 2025: the repo 
 ## ✨ What's New
 
 **Recent Org Updates (May 2026):**
+- 🧹 **Placeholder Cleanup Pass (May 26, 2026)** - 4 stale `PLACEHOLDER - Content Coming Soon` README banners replaced with accurate content (principal-architect-solutions, principal-engineer-solutions, team-lead-solutions, security-solutions — all repos have real content but the original scaffolding banners were never removed). Stripped "Coming Soon" Slack/Twitter/Newsletter/Website links across engineer + mlops + ml-platform learning repos. Removed 5 stale "lecture materials in development" notices from junior-engineer modules whose content has been live for weeks. Completed the mod-103 GPU-docker lecture exercise. 11 of 25 repos now show 0 placeholder markers (up from 4).
 - 🎯 **Capstone Projects Completed (May 26, 2026)** - 11 new project specs added: 5 ML Platform capstones (platform-core, feature-store, workflow-orchestration, model-registry, developer-portal — 355 hours total) + 5 Senior Architect strategic capstones (project-402 through project-406 — 285 hours total). Both tracks now structurally complete at the project layer.
 - 🛡️ **Security Track Completed (May 26, 2026)** - All 12 security-learning modules now published (foundations → zero-trust → cryptography → network → secrets → adversarial ML → compliance → runtime → policy → supply chain → SecOps → capstone), ~335 hours, ~105K words of curriculum
 - 📚 **SOLUTION.md Sweep** - 15 new design-rationale docs across all 12 solutions repos (project-level `SOLUTION.md` files plus track-level `SOLUTION_OVERVIEW.md` for module-only repos)
@@ -419,6 +420,7 @@ Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 
 - **Leadership and principal tracks** (Team Lead, Principal Engineer, Principal Architect): Each has the full 5-module / 5-project / 25-exercise scaffold checked in, but lecture content depth is shallower than the Engineer / MLOps / Security tracks. The strategic content is appropriate to the tier; the per-module lecture depth is the next iteration.
 - **ML Platform Engineer**: 9 deep modules + 45 hands-on exercises + 5 capstone projects (added May 26, 2026). Track structurally complete.
 - **Senior Engineer**: Lab structure is now 5 labs per module after the May 2026 parity pass; the labs themselves are senior-scale framings pointing back to the engineer-track for implementation depth — fuller standalone lab content is the natural next iteration.
+- **Engineer Solutions implementation depth**: `ai-infra-engineer-solutions` modules `mod-102` through `mod-110` contain ~114 Python files (out of 348 total) that are scaffolded but unimplemented (class/function stubs with `# TODO: Implement`). The lecture content, exercise specs, and SOLUTION.md write-ups are in place; what's missing is the runnable reference code for each exercise. This is a curriculum-development task at multi-session scale and is the largest remaining content gap in the org.
 
 ### By-design "gaps" — not actually missing
 
@@ -428,7 +430,7 @@ Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 
 
 - **Runtime validation**: Several Docker / Kubernetes / cloud-heavy repos still need fuller execution validation beyond static structure checks.
 - **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup. The Security track went through a deliberate ML-domain pass during the May 2026 build; others would benefit from a similar pass.
-- **Audit-script heuristics**: ✅ Resolved May 26, 2026 — `_meta/scripts/audit_curriculum_quality.py` now recognizes the engineer-track numbered-lecture convention via a `^\d+-.+\.md$` regex check.
+- **Audit-script heuristics**: ✅ Resolved May 26, 2026 — `_meta/scripts/audit_curriculum_quality.py` now (1) recognizes the engineer-track numbered-lecture convention via a `^\d+-.+\.md$` regex check, (2) skips markdown code-block content (no longer flags `grep -r "TODO"` examples or gRPC `Stub` API names), and (3) carries a ~70-entry false-positive phrase list distinguishing teaching scaffolds (`**TODO:** Complete this Dockerfile`, "stubs with educational TODO comments", template `| CISO | TBD |` rows) from actual unfinished work. Sampled-marker count dropped from 294 → 182 across the May 26 passes.
 
 ---
 

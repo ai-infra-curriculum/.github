@@ -40,6 +40,8 @@ The organization is now in a different phase than it was in late 2025: the repo 
 ## ✨ What's New
 
 **Recent Org Updates (May 2026):**
+- 🛡️ **Security Track Completed (May 26, 2026)** - All 12 security-learning modules now published (foundations → zero-trust → cryptography → network → secrets → adversarial ML → compliance → runtime → policy → supply chain → SecOps → capstone), ~335 hours, ~105K words of curriculum
+- 📚 **SOLUTION.md Sweep** - 15 new design-rationale docs across all 12 solutions repos (project-level `SOLUTION.md` files plus track-level `SOLUTION_OVERVIEW.md` for module-only repos)
 - 🔄 **Full Curriculum Refresh (May 23, 2026)** - 21 repos updated, 40+ commits, 350+ new exercises, and 50+ new modules
 - 🗺️ **[Curriculum Cross-Reference](https://github.com/ai-infra-curriculum/.github/blob/main/CURRICULUM_CROSS_REFERENCE.md)** - role and skill progression mapping across tracks
 - 📈 **[Career Progression Guide](https://github.com/ai-infra-curriculum/.github/blob/main/CAREER_PROGRESSION.md)** - career ladder from junior through principal architect
@@ -192,18 +194,22 @@ Principal Engineer ──────→ Principal Architect
 <td width="50%">
 
 #### [Security Engineer](https://github.com/ai-infra-curriculum/ai-infra-security-learning)
-**Time:** 680 hours
-**Status:** 🟡 Published (5 projects live; review ongoing)
+**Time:** 335 hours (12 modules)
+**Status:** ✅ Complete (12 modules + 5 projects + capstone)
 
 **What You'll Learn:**
-- ML infrastructure security
-- Model security & adversarial defense
-- Data privacy and compliance
-- Secrets management
-- Secure CI/CD and runtime defense
-- Security operations for ML systems
+- ML infrastructure security foundations + OWASP ML Top 10
+- Zero-trust architecture (SPIFFE, mTLS, microsegmentation)
+- Cryptography (KMS, Cosign, hash chains)
+- Network security + secrets management
+- Adversarial ML (FGSM/PGD/DP-SGD/LLM prompt injection)
+- Compliance (GDPR, HIPAA, SOC 2, EU AI Act)
+- Runtime security (Falco, eBPF) + policy as code (OPA, Kyverno)
+- Supply chain security (SLSA, SBOM, attestations)
+- Security operations (SIEM, MITRE ATLAS, IR procedures)
+- Capstone synthesis (NorthBridge Health scenario)
 
-**Projects:** 5 comprehensive security implementations
+**Projects:** 5 implementations + capstone portfolio
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-security-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-security-solutions)**
 
@@ -363,7 +369,7 @@ Principal Engineer ──────→ Principal Architect
 | MLOps | 🟡 Published | 10 modules, 5 projects, 50 exercises | Validation and review ongoing |
 | ML Platform | 🟡 Published | 9 modules, 45 exercises | Module-first today; projects need more build-out |
 | Performance | 🟡 Published | 8 modules, 3 projects, 40 exercises | Good depth in core modules |
-| Security | 🟡 Published | 5 projects | Working solution code is live |
+| Security | ✅ Complete | 12 modules, 5 projects, 60+ exercises, capstone | Full track with NorthBridge Health capstone synthesis |
 | Senior Engineer | 🟡 Published | 10 modules, 4 projects, 50 exercises | Needs continued depth passes |
 | Architect | 🟡 Published | 10 modules, 5 projects, 50 exercises | Structurally strong, still maturing |
 | Senior Architect | 🟡 Strategic Live | 10 modules, 50 exercises | Project layer is still shallow |
@@ -380,8 +386,10 @@ These are the clearest gaps still visible at the org level and should be treated
 - **ML Platform Engineer**: `9` modules are live, but the current repo snapshot still needs stronger project population.
 - **Senior Architect**: `10` strategic modules are live, but only `1` project scaffold is currently checked in.
 - **Leadership and principal tracks**: Team Lead, Principal Engineer, and Principal Architect are live structurally, but still need deeper lecture content and stronger artifact depth.
+- **Senior Engineer learning**: 10 modules + 4 projects + 36 exercises live, but module-level `quiz.md` files are still missing in some modules.
+- **Engineer learning**: 10 modules + 3 projects + 181 exercises + 113 solved exercises live; some modules still need filled-out `lecture.md` / `resources.md`.
 - **Runtime validation**: Several Docker/Kubernetes/cloud-heavy repos still need fuller execution validation beyond static checks and structure checks.
-- **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup.
+- **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup. The Security track in particular went through a deliberate ML-domain pass during the May 2026 build.
 
 ---
 
@@ -491,14 +499,18 @@ Most curriculum repositories are MIT-licensed. See the target repository's `LICE
 **Current Status (May 2026):**
 - ✅ All `27` org repositories are live
 - ✅ The May 23, 2026 chain pass refreshed `21` repos
-- ✅ Junior and Engineer remain the best fully-developed entry points
+- ✅ Junior, Engineer, and **Security** tracks are now fully-developed entry-to-specialization paths
+- ✅ All 12 solutions repos now have `SOLUTION.md` (per-project) or `SOLUTION_OVERVIEW.md` (per-track) design-rationale docs
 - 🟡 Specialization and senior tracks are published and usable
 - 🟡 Leadership and principal tracks are structurally live but still need depth
+- 🟡 ML Platform Engineer needs project-layer build-out
+- 🟡 Senior Architect needs deeper project artifacts
 
 **Current Focus (2026):**
 - Human review and factual verification of AI-assisted content
 - Runtime validation for code-heavy projects and labs
 - Deeper lecture and artifact development for leadership-tier tracks
+- ML Platform and Senior Architect project layer
 - Cross-reference, navigation, and link cleanup across the org
 
 ---
@@ -532,5 +544,5 @@ Most curriculum repositories are MIT-licensed. See the target repository's `LICE
 ---
 
 **Maintained by:** AI Infrastructure Curriculum Project
-**Last Updated:** May 2026
+**Last Updated:** May 26, 2026
 **Total Repositories:** 27 org-wide (24 curriculum + 3 support)

@@ -99,7 +99,7 @@ Principal Engineer ──────→ Principal Architect
 - Cloud platforms (AWS/GCP/Azure)
 - Basic monitoring & APIs
 
-**Projects:** 5 capstone projects
+**Coverage:** 67 hands-on exercises across 10 modules, 5 capstone projects, 53 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-solutions)**
 
@@ -119,7 +119,7 @@ Principal Engineer ──────→ Principal Architect
 - LLM infrastructure (vLLM, RAG)
 - IaC (Terraform, Pulumi)
 
-**Projects:** 3 production systems
+**Coverage:** 181 hands-on exercises across 10 modules, 3 production-system projects, 122 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-engineer-solutions)**
 
@@ -147,7 +147,7 @@ Principal Engineer ──────→ Principal Architect
 - Model monitoring & drift detection
 - A/B testing infrastructure
 
-**Projects:** 5 hands-on projects
+**Coverage:** 50 hands-on exercises across 10 modules, 5 capstone projects, 55 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-mlops-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-mlops-solutions)**
 
@@ -166,7 +166,7 @@ Principal Engineer ──────→ Principal Architect
 - Resource management & quotas
 - Developer experience
 
-**Projects:** Modules are live; project layer still needs more build-out
+**Coverage:** 45 hands-on exercises across 9 modules, 45 reference solutions; project layer still needs more build-out
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-ml-platform-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-ml-platform-solutions)**
 
@@ -186,7 +186,7 @@ Principal Engineer ──────→ Principal Architect
 - Cost optimization
 - Profiling (Nsight, PyTorch Profiler)
 
-**Projects:** 3 optimization-focused projects
+**Coverage:** 41 hands-on exercises across 8 modules, 3 optimization-focused projects, 40 reference solutions (with autograders)
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-performance-solutions)**
 
@@ -209,7 +209,7 @@ Principal Engineer ──────→ Principal Architect
 - Security operations (SIEM, MITRE ATLAS, IR procedures)
 - Capstone synthesis (NorthBridge Health scenario)
 
-**Projects:** 5 implementations + capstone portfolio
+**Coverage:** 61 hands-on exercises across 12 modules, 5 project implementations + capstone synthesis (NorthBridge Health), 5 project-level reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-security-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-security-solutions)**
 
@@ -238,7 +238,7 @@ Principal Engineer ──────→ Principal Architect
 - SRE & observability
 - Security & compliance
 
-**Projects:** 4 capstone projects
+**Coverage:** 36 hands-on exercises across 10 modules, 4 capstone projects, 54 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions)**
 
@@ -257,7 +257,7 @@ Principal Engineer ──────→ Principal Architect
 - HA & disaster recovery
 - LLM & RAG platform design
 
-**Projects:** 5 architecture projects
+**Coverage:** 50 hands-on exercises across 10 modules, 5 architecture projects, 55 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-architect-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-architect-solutions)**
 
@@ -285,7 +285,7 @@ Principal Engineer ──────→ Principal Architect
 - Performance management
 - Stakeholder communication
 
-**Projects:** 5 leadership projects
+**Coverage:** 25 hands-on exercises across 5 modules, 5 leadership projects, 25 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-team-lead-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-team-lead-solutions)**
 
@@ -303,7 +303,7 @@ Principal Engineer ──────→ Principal Architect
 - Executive communication
 - Large-scale transformations
 
-**Projects:** 1 live project scaffold today; more depth still needed
+**Coverage:** 45 hands-on exercises across 10 modules, 51 reference solutions; 1 live project scaffold today (more depth still needed)
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-senior-architect-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-senior-architect-solutions)**
 
@@ -331,7 +331,7 @@ Principal Engineer ──────→ Principal Architect
 - Novel infrastructure solutions
 - Technical mentorship
 
-**Projects:** 5 high-impact projects
+**Coverage:** 25 hands-on exercises across 5 modules, 5 high-impact projects, 25 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-principal-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-principal-engineer-solutions)**
 
@@ -350,7 +350,7 @@ Principal Engineer ──────→ Principal Architect
 - Architecture governance
 - Organizational transformation
 
-**Projects:** 5 strategic projects
+**Coverage:** 25 hands-on exercises across 5 modules, 5 strategic projects, 25 reference solutions
 
 **[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-principal-architect-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-principal-architect-solutions)**
 
@@ -364,18 +364,18 @@ Principal Engineer ──────→ Principal Architect
 
 | Track | Status | Current Coverage | Notes |
 |-------|--------|------------------|-------|
-| Junior Engineer | ✅ Complete | 10 modules, 5 projects | Best starting point for new learners |
-| Engineer | ✅ Complete | 10 modules, 3 projects, 119 solved exercises | Strongest hands-on core track |
-| MLOps | 🟡 Published | 10 modules, 5 projects, 50 exercises | Validation and review ongoing |
-| ML Platform | 🟡 Published | 9 modules, 45 exercises | Module-first today; projects need more build-out |
-| Performance | 🟡 Published | 8 modules, 3 projects, 40 exercises | Good depth in core modules |
-| Security | ✅ Complete | 12 modules, 5 projects, 60+ exercises, capstone | Full track with NorthBridge Health capstone synthesis |
-| Senior Engineer | 🟡 Published | 10 modules, 4 projects, 50 exercises | Needs continued depth passes |
-| Architect | 🟡 Published | 10 modules, 5 projects, 50 exercises | Structurally strong, still maturing |
-| Senior Architect | 🟡 Strategic Live | 10 modules, 50 exercises | Project layer is still shallow |
-| Team Lead | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises | Leadership scaffolds are live |
-| Principal Engineer | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises | Strategic scaffolds are live |
-| Principal Architect | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises | Strategic scaffolds are live |
+| Junior Engineer | ✅ Complete | 10 modules, 5 projects, 67 exercises, 53 reference solutions | Best starting point for new learners |
+| Engineer | ✅ Complete | 10 modules, 3 projects, 181 exercises, 122 reference solutions | Strongest hands-on core track |
+| MLOps | 🟡 Published | 10 modules, 5 projects, 50 exercises, 55 reference solutions | Validation and review ongoing |
+| ML Platform | 🟡 Published | 9 modules, 45 exercises, 45 reference solutions | Module-first today; projects need more build-out |
+| Performance | 🟡 Published | 8 modules, 3 projects, 41 exercises, 40 reference solutions | Good depth in core modules |
+| Security | ✅ Complete | 12 modules, 5 projects + capstone, 61 exercises | Full track with NorthBridge Health capstone synthesis |
+| Senior Engineer | 🟡 Published | 10 modules, 4 projects, 36 exercises, 54 reference solutions | Needs continued depth passes |
+| Architect | 🟡 Published | 10 modules, 5 projects, 50 exercises, 55 reference solutions | Structurally strong, still maturing |
+| Senior Architect | 🟡 Strategic Live | 10 modules, 1 project, 45 exercises, 51 reference solutions | Project layer is still shallow |
+| Team Lead | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Leadership scaffolds are live |
+| Principal Engineer | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Strategic scaffolds are live |
+| Principal Architect | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Strategic scaffolds are live |
 
 ---
 

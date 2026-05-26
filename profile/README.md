@@ -393,7 +393,7 @@ The audits in `_meta/QUALITY_REPORT.md` and `_meta/EXERCISE_SOLUTION_PARITY.md` 
 - **Senior Engineer Learning**: 10 `quiz.md` files relocated from `exercises/quiz.md` to module root via `git mv` (history preserved).
 - **Senior Architect Learning**: mod-401-enterprise-ai-strategy's empty `lecture-notes/` now contains `01-overview.md` matching the peer-module pattern.
 
-Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 75, Senior Architect 66 → 68, Engineer 55 → 55 (Engineer's audit flag is a false-positive on lecture-notes file naming — see "By-design 'gaps'" below).
+Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 75, Senior Architect 66 → 77, Engineer 55 → 79 (the audit script was updated on May 26, 2026 to recognize the engineer-track numbered-lecture convention — no more false positives).
 
 ### Missing projects (planned but not built)
 
@@ -423,13 +423,12 @@ Track scores improved correspondingly: Junior 59 → 76, Senior Engineer 51 → 
 ### By-design "gaps" — not actually missing
 
 - **Security Engineer**: The parity audit lists 61 "missing solutions" for security-learning. These are **design-based exercises** (write a threat model, produce a DPIA, conduct a tabletop). They are answered by *rubrics* and the 5 project-level `SOLUTION.md` files in `ai-infra-security-solutions`, not by per-exercise reference code. The discrepancy is structural, not a content gap.
-- **Engineer Learning lecture format**: The audit flags `mod-101` through `mod-110` as missing `lecture-notes.md` — but the Engineer track uses numbered `01-introduction.md`, `02-environment-setup.md`, ... files at the module root instead. Content exists; the audit heuristic doesn't recognize this convention. (See `_meta/QUALITY_REPORT.md`.)
 
 ### Cross-cutting work
 
 - **Runtime validation**: Several Docker / Kubernetes / cloud-heavy repos still need fuller execution validation beyond static structure checks.
 - **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup. The Security track went through a deliberate ML-domain pass during the May 2026 build; others would benefit from a similar pass.
-- **Audit-script heuristics**: Either update `_meta/scripts/audit_curriculum_quality.py` to recognize the Engineer-track lecture convention, or rename engineer-track lecture files to match the rest of the org's convention.
+- **Audit-script heuristics**: ✅ Resolved May 26, 2026 — `_meta/scripts/audit_curriculum_quality.py` now recognizes the engineer-track numbered-lecture convention via a `^\d+-.+\.md$` regex check.
 
 ---
 

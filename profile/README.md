@@ -379,17 +379,52 @@ Principal Engineer ──────→ Principal Architect
 
 ---
 
-## 🚩 Missing / Incomplete Content
+## 🚩 Outstanding Work
 
-These are the clearest gaps still visible at the org level and should be treated as active follow-up work:
+The audits in `_meta/QUALITY_REPORT.md` and `_meta/EXERCISE_SOLUTION_PARITY.md` (both regenerated 2026-05-26) surface the following concrete gaps. Every module *exists* in the planned modules' directory; every learning exercise has a corresponding solution where one is expected. The remaining work is filling in specific files and project specs.
 
-- **ML Platform Engineer**: `9` modules are live, but the current repo snapshot still needs stronger project population.
-- **Senior Architect**: `10` strategic modules are live, but only `1` project scaffold is currently checked in.
-- **Leadership and principal tracks**: Team Lead, Principal Engineer, and Principal Architect are live structurally, but still need deeper lecture content and stronger artifact depth.
-- **Senior Engineer learning**: 10 modules + 4 projects + 36 exercises live, but module-level `quiz.md` files are still missing in some modules.
-- **Engineer learning**: 10 modules + 3 projects + 181 exercises + 113 solved exercises live; some modules still need filled-out `lecture.md` / `resources.md`.
-- **Runtime validation**: Several Docker/Kubernetes/cloud-heavy repos still need fuller execution validation beyond static checks and structure checks.
-- **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup. The Security track in particular went through a deliberate ML-domain pass during the May 2026 build.
+### Missing module pieces (per-file)
+
+| Track | Missing | Specifics |
+|---|---|---|
+| Junior Engineer Learning | `resources.md` in 7 modules | mod-001-python-fundamentals, mod-003-git-version-control, mod-004-ml-basics, mod-005-docker-containers, mod-007-apis-web-services, mod-008-databases-sql, mod-010-cloud-platforms |
+| Engineer Learning | `resources.md` in 1 module | mod-101-foundations |
+| Senior Engineer Learning | `quiz.md` at module root in 10 modules | Each mod-201 through mod-210 has a quiz at `exercises/quiz.md` but not at the module root — needs relocation to match the standard layout |
+| Senior Architect Learning | lecture content in 1 module | mod-401-enterprise-ai-strategy has `lecture-notes/` directory but it's empty |
+
+### Missing projects (planned but not built)
+
+**ML Platform Engineer** — `5` projects planned in the repo's README, `0` currently checked in (only a placeholder `README.md` in `projects/`):
+- `project-01-platform-core` — self-service ML platform
+- `project-02-feature-store` — enterprise feature store
+- `project-03-workflow-orchestration` — ML workflow engine
+- `project-04-model-registry` — model management system
+- `project-05-developer-portal` — developer portal & SDK
+
+**Senior Architect** — `6` capstone projects planned in the repo's README, `1` checked in:
+- ✅ `project-401-ai-transformation-strategy` (live)
+- 🚧 Global AI Platform Architecture (planned)
+- 🚧 Responsible AI Framework (planned)
+- 🚧 Innovation Program Design (planned)
+- 🚧 Industry Thought Leadership (planned)
+- 🚧 Enterprise Governance Model (planned)
+
+### Curriculum-design gaps (not "missing files" but areas needing depth)
+
+- **Leadership and principal tracks** (Team Lead, Principal Engineer, Principal Architect): Each has the full 5-module / 5-project / 25-exercise scaffold checked in, but lecture content depth is shallower than the Engineer / MLOps / Security tracks. The strategic content is appropriate to the tier; the per-module lecture depth is the next iteration.
+- **ML Platform Engineer**: Modules are deep (45 hands-on exercises across 9 modules) but the project layer is the structural gap (see above).
+- **Senior Engineer**: Lab structure is now 5 labs per module after the May 2026 parity pass; the labs themselves are senior-scale framings pointing back to the engineer-track for implementation depth — fuller standalone lab content is the natural next iteration.
+
+### By-design "gaps" — not actually missing
+
+- **Security Engineer**: The parity audit lists 61 "missing solutions" for security-learning. These are **design-based exercises** (write a threat model, produce a DPIA, conduct a tabletop). They are answered by *rubrics* and the 5 project-level `SOLUTION.md` files in `ai-infra-security-solutions`, not by per-exercise reference code. The discrepancy is structural, not a content gap.
+- **Engineer Learning lecture format**: The audit flags `mod-101` through `mod-110` as missing `lecture-notes.md` — but the Engineer track uses numbered `01-introduction.md`, `02-environment-setup.md`, ... files at the module root instead. Content exists; the audit heuristic doesn't recognize this convention. (See `_meta/QUALITY_REPORT.md`.)
+
+### Cross-cutting work
+
+- **Runtime validation**: Several Docker / Kubernetes / cloud-heavy repos still need fuller execution validation beyond static structure checks.
+- **Human review**: AI-assisted material across the org still needs ongoing factual review, correction, and link cleanup. The Security track went through a deliberate ML-domain pass during the May 2026 build; others would benefit from a similar pass.
+- **Audit-script heuristics**: Either update `_meta/scripts/audit_curriculum_quality.py` to recognize the Engineer-track lecture convention, or rename engineer-track lecture files to match the rest of the org's convention.
 
 ---
 

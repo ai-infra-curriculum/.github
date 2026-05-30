@@ -585,10 +585,8 @@ Most curriculum repositories are MIT-licensed. See the target repository's `LICE
 
 ---
 
-**Maintained by:** AI Infrastructure Curriculum Project
 **Last Updated:** May 26, 2026
 **Total Repositories:** 27 org-wide (24 curriculum + 3 support)
-
 
 ---
 

@@ -19,6 +19,12 @@ This guide outlines the complete career path in AI Infrastructure Engineering, f
 
 ```
 ┌────────────────────────────────────────────────────────────┐
+│                    Chief AI Officer                         │
+│                   (15+ years experience)                    │
+│   AI Governance • Risk & Compliance • Org AI Strategy      │
+└────────────────────────────────────────────────────────────┘
+                            ▲
+┌────────────────────────────────────────────────────────────┐
 │                   Principal Architect                       │
 │                 (10-15+ years experience)                   │
 │      Strategy • Enterprise • Cross-Org Leadership          │

@@ -34,6 +34,8 @@ This document maps the relationships between Junior Engineer and Engineer track 
 
 **Outcome**: Ready for mid-level AI Infrastructure Engineer roles
 
+> **Related vertical:** the **Agentic AI Track** (Agentic AI Developer L20 → Agentic AI Engineer L30 → Senior Agentic AI Engineer L40 → Agentic Systems Architect L48) runs parallel to this ladder for learners focused on building and architecting production agentic systems. The Agentic AI Developer rung shares prerequisites with the Junior/Engineer tracks (Python, APIs, LLM fundamentals).
+
 ---
 
 ## Module Mapping

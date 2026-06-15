@@ -30,14 +30,17 @@ This curriculum provides production-focused training for AI Infrastructure Engin
 The organization is now in a different phase than it was in late 2025: the repo surface is largely in place, and the main work is now **depth, validation, and human review** rather than simply standing up missing repositories.
 
 **Total Content:**
-- 🏢 **27 Organization Repositories** (24 curriculum + 3 support)
-- 📚 **12 Learning Tracks** (Junior → Principal levels)
-- ✅ **12 Solutions Repositories**
+- 🏢 **35 Organization Repositories** (32 curriculum + 3 support)
+- 📚 **16 Learning Tracks** (Entry → Principal, incl. the Agentic AI vertical)
+- ✅ **16 Solutions Repositories**
 - 🎓 **525+ Hands-On Exercises**
 - 🚀 **45+ Real-World Projects**
 - ⏱️ **6,000+ Hours** of learning material
 
 ## ✨ What's New
+
+**Recent Org Updates (June 2026):**
+- 🤖 **Agentic AI Track Added (June 15, 2026)** - New 4-rung Agentic AI vertical: **Agentic AI Developer (L20)** → **Agentic AI Engineer (L30)** → **Senior Agentic AI Engineer (L40)** → **Agentic Systems Architect (L48)**. Covers LLM applications, multi-agent systems, evaluation & observability, and agentic system design & governance (including AI-for-SDLC platforms). 8 new repos scaffolded and seeded; per-role research/review timers wired; content generation underway.
 
 **Recent Org Updates (May 2026):**
 - 🚀 **Engineer Solutions Buildout Complete (May 26, 2026)** - All 23 exercise solutions in `ai-infra-engineer-solutions` (covering modules mod-102 through mod-110: cloud computing, containerization, Kubernetes, data pipelines, MLOps, GPU computing, monitoring, IaC, LLM infrastructure) shipped with real, runnable implementations. ~20,000 LOC across 114 source files, 500+ passing tests, every exercise has a working CLI demo. No more `# TODO: Implement` stubs in the engineer-solutions repo.
@@ -79,11 +82,93 @@ Team Lead ───────────────→ Senior Architect
 Principal Level (8-15+ years)
     ↓                             ↓
 Principal Engineer ──────→ Principal Architect
+
+
+Agentic AI vertical (parallel specialization):
+Agentic AI Developer ─→ Agentic AI Engineer ─→ Senior Agentic AI Engineer ─→ Agentic Systems Architect
+   (entry, L20)            (build, L30)            (staff/lead, L40)             (design, L48)
 ```
 
 ---
 
 ## 📚 All Learning Tracks
+
+### 🤖 Agentic AI Track (NEW — specialization vertical)
+
+A four-rung path focused on building and architecting production agentic AI systems, running parallel to the core infrastructure ladder.
+
+<table>
+<tr>
+<td width="50%">
+
+#### [Agentic AI Developer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-learning)
+**Level:** Entry (L20)
+**Status:** 🚧 Content generating
+
+**What You'll Learn:**
+- LLM APIs, tokens & context
+- Prompt engineering & structured output
+- Tool / function calling
+- Retrieval basics (embeddings, simple RAG)
+- Your first agent; shipping a simple LLM app
+
+**[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-solutions)**
+
+</td>
+<td width="50%">
+
+#### [Agentic AI Engineer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning)
+**Level:** Build (L30)
+**Status:** 🚧 Content generating
+
+**What You'll Learn:**
+- ReAct loops & agent frameworks (LangGraph, CrewAI, AutoGen)
+- RAG & memory implementation
+- Multi-agent systems
+- Evaluation & observability
+- Guardrails & productionizing
+
+**[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-solutions)**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### [Senior Agentic AI Engineer](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-learning)
+**Level:** Staff / Tech-Lead (L40)
+**Status:** 🚧 Content generating
+
+**What You'll Learn:**
+- Implementing systems from an architecture
+- Eval & observability infrastructure
+- Multi-agent systems at scale
+- Reliability, cost & incident response
+- Technical leadership & mentorship
+
+**[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions)**
+
+</td>
+<td width="50%">
+
+#### [Agentic Systems Architect](https://github.com/ai-infra-curriculum/ai-infra-agentic-systems-architect-learning)
+**Level:** Design (L48)
+**Status:** 🚧 Content generating
+
+**What You'll Learn:**
+- Orchestration topology & when *not* to use an agent
+- Memory & context architecture
+- Eval harnesses, observability, guardrails & security
+- Cost/latency, durable execution & governance
+- Agentic developer platforms (AI-for-SDLC)
+
+**[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-agentic-systems-architect-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-agentic-systems-architect-solutions)**
+
+</td>
+</tr>
+</table>
+
+---
 
 ### 🟢 Entry Level (0-2 years)
 

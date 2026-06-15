@@ -63,6 +63,13 @@ Engineer → Tech Lead → Engineering Manager → Director → VP
 - LLM Infrastructure Specialist
 - Cloud Platform Specialist
 
+**Agentic AI Track** (parallel specialization vertical for building and architecting production agentic systems):
+Agentic AI Developer (L20) → Agentic AI Engineer (L30) → Senior Agentic AI Engineer (L40) → Agentic Systems Architect (L48)
+- **Agentic AI Developer** — entry on-ramp: LLM APIs, prompt engineering, tool/function calling, retrieval basics, shipping a simple LLM app. *Curriculum: Agentic AI Developer Track.*
+- **Agentic AI Engineer** — build: ReAct loops, agent frameworks (LangGraph/CrewAI/AutoGen), RAG & memory, multi-agent systems, evaluation, guardrails. *Curriculum: Agentic AI Engineer Track.*
+- **Senior Agentic AI Engineer** — staff/tech-lead build: eval & observability infrastructure, multi-agent at scale, reliability/cost/incident response, technical leadership. *Curriculum: Senior Agentic AI Engineer Track.*
+- **Agentic Systems Architect** — design: orchestration topology, memory/context architecture, eval/observability, security & governance, durable execution, agentic developer platforms (AI-for-SDLC). *Curriculum: Agentic Systems Architect Track.*
+
 ---
 
 ## Level Descriptions

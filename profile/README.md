@@ -21,7 +21,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
-[![Repositories: 35](https://img.shields.io/badge/repositories-35-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
+[![Repositories: 41](https://img.shields.io/badge/repositories-41-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
 
 ## 🎯 Overview
 
@@ -30,9 +30,9 @@ This curriculum provides production-focused training for AI Infrastructure Engin
 The organization is now in a different phase than it was in late 2025: the repo surface is largely in place, and the main work is now **depth, validation, and human review** rather than simply standing up missing repositories.
 
 **Total Content:**
-- 🏢 **35 Organization Repositories** (32 curriculum + 3 support)
-- 📚 **16 Learning Tracks** (Entry → Principal, incl. the Agentic AI vertical)
-- ✅ **16 Solutions Repositories**
+- 🏢 **41 Organization Repositories** (34 curriculum + 7 support)
+- 📚 **17 Learning Tracks** (Entry → Executive, incl. the Agentic AI vertical)
+- ✅ **17 Solutions Repositories**
 - 🎓 **525+ Hands-On Exercises**
 - 🚀 **45+ Real-World Projects**
 - ⏱️ **6,000+ Hours** of learning material
@@ -82,6 +82,10 @@ Team Lead ───────────────→ Senior Architect
 Principal Level (8-15+ years)
     ↓                             ↓
 Principal Engineer ──────→ Principal Architect
+                              ↓
+Executive (15+ years)
+                              ↓
+                          Chief AI Officer
 
 
 Agentic AI vertical (parallel specialization):
@@ -448,6 +452,30 @@ A four-rung path focused on building and architecting production agentic AI syst
 
 ---
 
+### 🏛️ Executive Level (15+ years)
+
+<table>
+<tr>
+<td width="50%">
+
+#### [Chief AI Officer](https://github.com/ai-infra-curriculum/ai-infra-chief-ai-officer-learning)
+**Status:** 🟡 Foundational track live (12 modules)
+
+**What You'll Learn:**
+- AI governance, risk & compliance
+- AI strategy & organizational transformation
+- Security, ethics & responsible AI
+- Regulatory frameworks (EU AI Act, ISO/IEC 42001)
+- Executive & board-level communication
+
+**[📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-chief-ai-officer-learning) | [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-chief-ai-officer-solutions)**
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📈 Repository Status
 
 | Track | Status | Current Coverage | Notes |
@@ -464,6 +492,11 @@ A four-rung path focused on building and architecting production agentic AI syst
 | Team Lead | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Leadership scaffolds are live |
 | Principal Engineer | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Strategic scaffolds are live |
 | Principal Architect | 🟡 Strategic Live | 5 modules, 5 projects, 25 exercises, 25 reference solutions | Strategic scaffolds are live |
+| Chief AI Officer | 🟡 Foundational Live | 12 modules — AI governance, risk, compliance, security, ethics | Executive tier; lecture depth maturing |
+| Agentic AI Developer | 🚧 Content generating | 6 modules, 2 projects scaffolded (L20 entry) | New Agentic vertical; content generation underway |
+| Agentic AI Engineer | 🚧 Content generating | 7 modules, 2 projects scaffolded (L30 build) | New Agentic vertical; content generation underway |
+| Senior Agentic AI Engineer | 🚧 Content generating | 5 modules, 2 projects scaffolded (L40 staff/lead) | New Agentic vertical; content generation underway |
+| Agentic Systems Architect | 🚧 Content generating | 10 modules, 3 projects scaffolded (L48 design) | New Agentic vertical; content generation underway |
 
 ---
 
@@ -671,7 +704,7 @@ Most curriculum repositories are MIT-licensed. See the target repository's `LICE
 ---
 
 **Last Updated:** June 15, 2026
-**Total Repositories:** 35 org-wide (32 curriculum + 3 support)
+**Total Repositories:** 41 org-wide (34 curriculum + 7 support)
 
 ---
 

@@ -21,7 +21,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
-[![Repositories: 27](https://img.shields.io/badge/repositories-27-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
+[![Repositories: 35](https://img.shields.io/badge/repositories-35-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
 
 ## 🎯 Overview
 
@@ -670,8 +670,8 @@ Most curriculum repositories are MIT-licensed. See the target repository's `LICE
 
 ---
 
-**Last Updated:** May 26, 2026
-**Total Repositories:** 27 org-wide (24 curriculum + 3 support)
+**Last Updated:** June 15, 2026
+**Total Repositories:** 35 org-wide (32 curriculum + 3 support)
 
 ---
 

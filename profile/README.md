@@ -1,5 +1,11 @@
 # AI Infrastructure Engineering Curriculum
 
+<!-- aicg:site-banner -->
+### 🎓 [ai-infra-curriculum.github.io →](https://ai-infra-curriculum.github.io/)
+
+A free, open-source ladder of role-based AI-infrastructure programs. **[Explore the ladder](https://ai-infra-curriculum.github.io/)** · **[Join the first live cohort](https://ai-infra-curriculum.github.io/junior.html)** · **[For teams](https://ai-infra-curriculum.github.io/teams.html)**
+<!-- /aicg:site-banner -->
+
 ---
 
 ## ⚠️ AI-Generated Content Disclaimer

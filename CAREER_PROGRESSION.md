@@ -19,12 +19,6 @@ This guide outlines the complete career path in AI Infrastructure Engineering, f
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                    Chief AI Officer                         │
-│                   (15+ years experience)                    │
-│   AI Governance • Risk & Compliance • Org AI Strategy      │
-└────────────────────────────────────────────────────────────┘
-                            ▲
-┌────────────────────────────────────────────────────────────┐
 │                   Principal Architect                       │
 │                 (10-15+ years experience)                   │
 │      Strategy • Enterprise • Cross-Org Leadership          │
@@ -63,18 +57,32 @@ Junior → Engineer → Senior → Staff → Principal
 **Management Track**:
 Engineer → Tech Lead → Engineering Manager → Director → VP
 
-**Specialist Tracks**:
-- MLOps Specialist
-- GPU Infrastructure Specialist
-- LLM Infrastructure Specialist
-- Cloud Platform Specialist
+**Specialist Tracks** (within AI Infrastructure):
+- MLOps / ML Platform Engineer
+- GPU & Inference Optimization Engineer
+- LLM Infrastructure Engineer
+- AI Platform SRE
 
-**Agentic AI Track** (parallel specialization vertical for building and architecting production agentic systems):
-Agentic AI Developer (L20) → Agentic AI Engineer (L30) → Senior Agentic AI Engineer (L40) → Agentic Systems Architect (L48)
-- **Agentic AI Developer** — entry on-ramp: LLM APIs, prompt engineering, tool/function calling, retrieval basics, shipping a simple LLM app. *Curriculum: Agentic AI Developer Track.*
-- **Agentic AI Engineer** — build: ReAct loops, agent frameworks (LangGraph/CrewAI/AutoGen), RAG & memory, multi-agent systems, evaluation, guardrails. *Curriculum: Agentic AI Engineer Track.*
-- **Senior Agentic AI Engineer** — staff/tech-lead build: eval & observability infrastructure, multi-agent at scale, reliability/cost/incident response, technical leadership. *Curriculum: Senior Agentic AI Engineer Track.*
-- **Agentic Systems Architect** — design: orchestration topology, memory/context architecture, eval/observability, security & governance, durable execution, agentic developer platforms (AI-for-SDLC). *Curriculum: Agentic Systems Architect Track.*
+### Sibling Curricula — the AI Career Curriculum ecosystem
+
+This guide covers the **AI Infrastructure** ladder: running the platforms. Three
+sibling curricula own adjacent disciplines — they are *cross-links*, not rungs of
+this ladder:
+
+- **[ML Engineering](https://github.com/ml-engineering-curriculum)** — building &
+  training the models: data curation, fine-tuning, pretraining, RLHF, evaluation
+  (ML Engineer → Senior → Staff → Principal).
+- **[AI Engineering](https://github.com/ai-engineering-curriculum)** — building
+  *with* models: LLM apps, agents, RAG, multi-agent systems (Agentic AI Developer
+  → Engineer → Senior → Systems Architect).
+- **[AI Governance](https://github.com/ai-governance-curriculum)** — governing,
+  securing & assuring AI: security, risk, compliance, policy, and the **Chief AI
+  Officer** executive track.
+
+A senior AI-infra engineer commonly grows *across* these — e.g. into the
+distributed-training systems work owned by ML Engineering, or the platform
+security work owned by AI Governance. Each sibling org has its own
+`CAREER_PROGRESSION.md`.
 
 ---
 

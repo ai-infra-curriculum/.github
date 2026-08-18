@@ -35,11 +35,12 @@ This org spans **11 role tracks** — the AI infrastructure ladder from Entry to
 
 ## 🔗 Curriculum Family
 
-This org covers **AI infrastructure** — *running* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE). Three sibling orgs cover the rest of the AI landscape, organized by what you *do* relative to a model:
+This org covers **AI infrastructure** — *running* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE). Four sibling orgs cover the rest of the AI landscape, organized by what you *do* relative to a model:
 
 - **[ML Engineering Curriculum](https://github.com/ml-engineering-curriculum)** — *building & training* the models: data, fine-tuning, pretraining, RLHF, evals.
 - **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *building with* AI: agentic AI developer → engineer → senior → systems architect.
 - **[AI Governance Curriculum](https://github.com/ai-governance-curriculum)** — *governing, securing & assuring* AI: security, chief AI officer, evaluation & agentic safety.
+- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages).
 
 ## 📚 Learning Tracks
 

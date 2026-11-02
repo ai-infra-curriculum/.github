@@ -1,13 +1,5 @@
 # AI Infrastructure Engineering Curriculum
 
-<!-- aicg:site-banner -->
-### 🎓 Live cohorts &amp; team programs → [ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)
-
-The curriculum in these repositories is **free and open-source**. For live, instructor-led cohorts and corporate team programs, visit the site: **[Join the first cohort](https://ai-infra-curriculum.github.io/junior.html)** · **[For teams](https://ai-infra-curriculum.github.io/teams.html)**.
-<!-- /aicg:site-banner -->
-
----
-
 ## ⚠️ AI-Generated Content Disclaimer
 
 > The content in these repositories is generated with AI assistance and undergoes ongoing human review. It may contain errors or outdated information. Treat it as a learning resource: cross-reference official docs, test code in a safe environment, and report issues via GitHub Issues or Discussions.

@@ -6,7 +6,7 @@
 
 ---
 
-> A comprehensive, hands-on learning path for AI Infrastructure Engineers — from entry-level to executive roles, plus a dedicated Agentic AI specialization vertical.
+> A comprehensive, hands-on learning path for AI Infrastructure Engineers — from entry level to principal.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
@@ -14,7 +14,7 @@
 
 ## 🎯 Overview
 
-This curriculum provides production-focused training for AI Infrastructure Engineers, covering everything from foundational Python and Kubernetes to distributed training, LLM infrastructure, MLOps, platform engineering, security, enterprise architecture, and agentic AI systems.
+This curriculum provides production-focused training for AI Infrastructure Engineers, covering everything from foundational Python and Kubernetes to distributed training, GPU and LLM infrastructure, MLOps, platform engineering, performance, and enterprise architecture.
 
 This org spans **11 role tracks** — the AI infrastructure ladder from Entry to Principal. Every track has a paired **learning** repository (modules, lecture chapters, exercises, quizzes) and a **solutions** repository with reference walkthroughs. Agentic-engineering and governance roles live in the [sibling orgs](#-curriculum-family).
 
@@ -23,7 +23,7 @@ This org spans **11 role tracks** — the AI infrastructure ladder from Entry to
 - 🏢 **22 curriculum repositories** (11 learning + 11 solutions) plus support repos
 - 📚 **11 learning tracks** with **11 paired solutions repositories**
 - 🎓 Hundreds of hands-on exercises and dozens of real-world projects
-- 🤖 **Agentic AI track complete** — all four rungs have full learning content and reference solutions
+- 🔗 **Agentic engineering, governance, and ML engineering** tracks live in the [sibling orgs](#-curriculum-family)
 
 ## 🔗 Curriculum Family
 

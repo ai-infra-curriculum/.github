@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
-[![Repositories: 24](https://img.shields.io/badge/repositories-24-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
+[![Repositories: 26](https://img.shields.io/badge/repositories-26-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
 
 ## 🎯 Overview
 
@@ -18,8 +18,8 @@ This org covers **AI infrastructure** — *running* the platforms: foundational 
 
 **At a glance:**
 
-- 🏢 **24 curriculum repositories** (12 learning + 12 solutions)
-- 📚 **12 role tracks**
+- 🏢 **26 curriculum repositories** (13 learning + 13 solutions)
+- 📚 **13 role tracks**
 - 🎓 Hundreds of hands-on exercises and dozens of real-world projects
 - 🔗 **Agentic engineering, governance, and ML engineering** tracks live in the [sibling orgs](#-curriculum-family)
 
@@ -52,6 +52,7 @@ One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by wh
 | **MLOps Engineer** | CI/CD for ML, model registry, feature stores, experiment tracking, drift detection, A/B testing | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-mlops-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-mlops-solutions) |
 | **AI Inference Engineer** | Serving engines (vLLM, TensorRT-LLM, SGLang), batching & KV cache, quantization, routing, GPU autoscaling, latency/cost SLOs | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-inference-engineer-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-inference-engineer-solutions) |
 | **AI Infrastructure Performance Engineer** | GPU utilization, inference latency, training efficiency, cost optimization, profiling | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-performance-solutions) |
+| **AI Reliability Engineer (AI SRE)** | SLOs for model-backed services, LLM & GPU observability, incident response for non-deterministic failures, provider dependency risk, chaos testing | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-sre-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-sre-solutions) |
 
 ### 🟣 Advanced Level (4-6 years)
 

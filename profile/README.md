@@ -12,7 +12,7 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
 [![Repositories: 26](https://img.shields.io/badge/repositories-26-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
 
-🌐 **Website:** [ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/)
+🌐 **Website:** [ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/) · 📊 [Completeness matrix](https://github.com/ai-infra-curriculum/.github/blob/main/COMPLETENESS_MATRIX.md)
 
 ## 🎯 Overview
 

@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-infra-curriculum/discussions)
-[![Repositories: 22](https://img.shields.io/badge/repositories-22-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
+[![Repositories: 24](https://img.shields.io/badge/repositories-24-blue.svg)](https://github.com/orgs/ai-infra-curriculum/repositories)
 
 ## 🎯 Overview
 
@@ -18,8 +18,8 @@ This org covers **AI infrastructure** — *running* the platforms: foundational 
 
 **At a glance:**
 
-- 🏢 **22 curriculum repositories** (11 learning + 11 solutions)
-- 📚 **11 role tracks**
+- 🏢 **24 curriculum repositories** (12 learning + 12 solutions)
+- 📚 **12 role tracks**
 - 🎓 Hundreds of hands-on exercises and dozens of real-world projects
 - 🔗 **Agentic engineering, governance, and ML engineering** tracks live in the [sibling orgs](#-curriculum-family)
 
@@ -50,6 +50,7 @@ One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by wh
 |------|-------|--------------|
 | **AI/ML Platform Engineer** | Platform architecture, multi-tenancy, serving at scale, platform APIs/SDKs, developer experience | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-ml-platform-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-ml-platform-solutions) |
 | **MLOps Engineer** | CI/CD for ML, model registry, feature stores, experiment tracking, drift detection, A/B testing | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-mlops-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-mlops-solutions) |
+| **AI Inference Engineer** | Serving engines (vLLM, TensorRT-LLM, SGLang), batching & KV cache, quantization, routing, GPU autoscaling, latency/cost SLOs | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-inference-engineer-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-inference-engineer-solutions) |
 | **AI Infrastructure Performance Engineer** | GPU utilization, inference latency, training efficiency, cost optimization, profiling | [📘 Learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning) · [✅ Solutions](https://github.com/ai-infra-curriculum/ai-infra-performance-solutions) |
 
 ### 🟣 Advanced Level (4-6 years)
